@@ -39,10 +39,10 @@ public class ServerUI {
         frame.getContentPane().add(lblNewLabel);
 
         textServerIP = new JTextField();
-        textServerIP.setText("127.0.0.1");
-        textServerIP.setBounds(149, 30, 111, 21);
-        frame.getContentPane().add(textServerIP);
-        textServerIP.setColumns(10);
+            textServerIP.setText("127.0.0.1");
+            textServerIP.setBounds(149, 30, 111, 21);
+            frame.getContentPane().add(textServerIP);
+            textServerIP.setColumns(10);
 
         //端口号名称和输入框
         JLabel lblNewLabel_1 = new JLabel("端口号:");
@@ -108,6 +108,9 @@ public class ServerUI {
         btnRemove = new JButton("移除");
         btnRemove.setBounds(672,517,65,26);
         frame.getContentPane().add(btnRemove);
+
+
+
 
 
 
